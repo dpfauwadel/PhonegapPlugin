@@ -11,7 +11,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import util.Base64;
 import android.os.Environment;
 
 public class Base64ToJPG extends CordovaPlugin{
