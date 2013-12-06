@@ -1,3 +1,4 @@
+var base64ToJPG = {
 createEvent: function(b64String, params, win, fail) {
 		cordova.exec(
 			win, 
@@ -9,4 +10,5 @@ createEvent: function(b64String, params, win, fail) {
 			}]			
 		);
 	}
-module.exports = base64ToJPG;});
+}
+module.exports = base64ToJPG;
