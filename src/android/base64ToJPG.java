@@ -64,7 +64,7 @@ public class Base64ToJPG extends CordovaPlugin{
 		return overwrite;
     }
 	
-	private Boolean saveImage(String b64String, String fileName, String dirName, Boolean overwrite) throws InterruptedException, JSONException {
+	private boolean saveImage(String b64String, String fileName, String dirName, Boolean overwrite) throws InterruptedException, JSONException {
 
         try {
 
